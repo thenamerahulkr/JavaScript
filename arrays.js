@@ -29,7 +29,8 @@ for (let i = 0; i < marks.length; i++) {
     console.log(marks[i])
 }
 
-//  for-of loop or for-in loop=>A for...of loop exits when the iterator has completed (the iterator's next() method returns an object containing done: true). You may also use control flow statements to change the normal control flow. break exits the loop and goes to the first statement after the loop body, while continue skips the rest of the statements of the current iteration and proceeds to the next iteration.
+//  for-of loop or for-in loop=>A for...of loop exits when the iterator has completed (the iterator's next() method returns an object containing done: true).
+//  You may also use control flow statements to change the normal control flow. break exits the loop and goes to the first statement after the loop body, while continue skips the rest of the statements of the current iteration and proceeds to the next iteration.
 // syntax 
 const array1 = ['a', 'b', 'c'];
 
@@ -153,7 +154,8 @@ console.log(beasts.indexOf('giraffe'));
 // Expected output: -1
 
 
-// The join() method of Array instances creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator. join()
+// The join() method of Array instances creates and returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string. 
+// If the array has only one item, then that item will be returned without using the separator. join()
 // join(separator)  
 
 const elements = ['Fire', 'Air', 'Water'];
